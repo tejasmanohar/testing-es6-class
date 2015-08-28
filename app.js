@@ -1,17 +1,8 @@
-class Thing {
-
-  constructor(options) {
-    this.name = options.name;
-  }
-
-  test() {
-    return true;
-  }
-
-}
+import Thing from './thing';
 
 const jack = new Thing({
   name: 'jack'
 });
 
+console.log(jack);
 console.log(jack.test());
