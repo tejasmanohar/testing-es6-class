@@ -5,4 +5,5 @@ const jack = new Thing({
 });
 
 console.log(jack);
-console.log(jack.test());
+console.log(jack.test);
+console.log(jack.name);
